@@ -18,7 +18,7 @@ public class MySQLDatabase implements Database{
     }
 
     @Override
-    public Query getQuery() {
-        return new MySQLQuery();
+    public DatabaseElements getDatabaseElements() {
+        return new MySQLDatabaseElements();
     }
 }

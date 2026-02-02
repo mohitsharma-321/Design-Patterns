@@ -17,7 +17,7 @@ public class PostgreDatabase implements Database {
     }
 
     @Override
-    public Query getQuery() {
-        return new PostgreQuery();
+    public DatabaseElements getDatabaseElements() {
+        return new PostgreDatabaseElements();
     }
 }
